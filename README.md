@@ -6,13 +6,12 @@ This repository contains an implementation of the Retrieval-Augmented Generation
 
 The RAG for PDF project aims to leverage state-of-the-art natural language processing techniques to enhance the process of reading and extracting information from PDF documents. It utilizes the following components:
 
-- **RAG Model**: The core component of the project, the RAG model, is responsible for generating responses based on the input query and the retrieved passages from PDF documents.
+- **PDF Reader and Parser**: Utilizing PDF Reader, the system parses PDF documents to extract relevant passages that serve as the knowledge base for the Embedding model.
+- **Embedding Model** : Utilizing Embedding Model to Embedd the Data Parsed from PDF to be stored in VectorStore For Further Use as well as the Query Embedding for the Similarity Search by Vector Database FAISS.
 
-- **OpenAI Chatbot Model**: Integrated with the RAG model, the OpenAI Chatbot model facilitates interaction by understanding and generating human-like responses to queries.
+- **OpenAI Chatbot Model**: Integrated with the Embedding model, the OpenAI Chatbot model facilitates interaction by understanding and generating human-like responses to queries.
 
-- **PDF Reader and Parser**: Utilizing OpenAI's PDF Reader, the system parses PDF documents to extract relevant passages that serve as the knowledge base for the RAG model.
-
-- **FAISS for Vector Database**: FAISS (Facebook AI Similarity Search) is employed to efficiently store and retrieve vector representations of text passages, enabling fast and scalable retrieval for the RAG model.
+- **FAISS for Vector Database**: FAISS (Facebook AI Similarity Search) is employed to efficiently store and retrieve vector representations of text passages, enabling fast and scalable retrieval for the RAG model  with LangChain used as Wrappers
 
 ## Features
 
@@ -39,4 +38,4 @@ pip install -r requirements.txt
 3.Run Application:
 streamlit run app.py
 
-## Feel free to use and modify this README file according to your requirements! If you have any further questions or need additional assistance, please let me know.
+#### Feel free to use and modify this README file according to your requirements! If you have any further questions or need additional assistance, please let me know.
