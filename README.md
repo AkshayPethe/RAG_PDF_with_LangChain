@@ -1,11 +1,12 @@
 # RAG for PDF
-![MasterHead](https://miro.medium.com/v2/resize:fit:923/1*CJzoMxqFrxrDv2UpZt23ZQ.png)
+![MasterHead](https://miro.medium.com/v2/resize:fit:1358/1*iGdFJTHMIG79N2HChWaooQ.gif)
 
 This repository contains an implementation of the Retrieval-Augmented Generation (RAG) model tailored for PDF documents. The RAG model enhances the traditional sequence-to-sequence models by incorporating a retriever component, allowing it to retrieve relevant information from a large knowledge base before generating responses.
 
 ## Overview
 
 The RAG for PDF project aims to leverage state-of-the-art natural language processing techniques to enhance the process of reading and extracting information from PDF documents. It utilizes the following components:
+![Image Description](https://miro.medium.com/v2/resize:fit:923/1*CJzoMxqFrxrDv2UpZt23ZQ.png)
 
 - **PDF Reader and Parser**: Utilizing PDF Reader, the system parses PDF documents to extract relevant passages that serve as the knowledge base for the Embedding model.
 - **Embedding Model** : Utilizing Embedding Model to Embedd the Data Parsed from PDF to be stored in VectorStore For Further Use as well as the Query Embedding for the Similarity Search by Vector Database FAISS.
