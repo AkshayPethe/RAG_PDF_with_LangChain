@@ -32,10 +32,11 @@ To get started with using the RAG for PDF system, follow these steps:
    ```bash
    git clone https://github.com/AkshayPethe/RAG_for_PDF.git
 
-2.Install the necessary dependencies:
-pip install -r requirements.txt
 
-3.Run Application:
+2. To Run the Application Follow Below Steps
+
+```markdown
+pip install -r requirements.txt
 streamlit run app.py
 
-#### Feel free to use and modify this README file according to your requirements! If you have any further questions or need additional assistance, please let me know.
+
