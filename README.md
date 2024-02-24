@@ -1,4 +1,5 @@
 # RAG for PDF
+![MasterHead](https://assets-global.website-files.com/6305e5d52c28356b4fe71bac/63f8df8c87f95232f94ad05c_Holistic-AI-Figure-2.gif)
 
 This repository contains an implementation of the Retrieval-Augmented Generation (RAG) model tailored for PDF documents. The RAG model enhances the traditional sequence-to-sequence models by incorporating a retriever component, allowing it to retrieve relevant information from a large knowledge base before generating responses.
 
